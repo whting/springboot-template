@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wht.template.dal.mapper.rule.RuleFieldEntityMapper">
+  <resultMap id="BaseResultMap" type="com.wht.template.dal.domain.rule.RuleFieldEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="uuid" jdbcType="CHAR" property="uuid" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+    <result column="sign" jdbcType="BIT" property="sign" />
+    <result column="partner_code" jdbcType="CHAR" property="partnerCode" />
+    <result column="app_name" jdbcType="CHAR" property="appName" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="display_name" jdbcType="VARCHAR" property="displayName" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="max_length" jdbcType="SMALLINT" property="maxLength" />
+    <result column="necessary" jdbcType="BIT" property="necessary" />
+    <result column="sign_for_rule" jdbcType="VARCHAR" property="signForRule" />
+    <result column="sign_for_velocity" jdbcType="VARCHAR" property="signForVelocity" />
+    <result column="event_type" jdbcType="VARCHAR" property="eventType" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="modified_by" jdbcType="VARCHAR" property="modifiedBy" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+    <result column="app_type" jdbcType="VARCHAR" property="appType" />
+    <result column="sign_for_saas" jdbcType="VARCHAR" property="signForSaas" />
+    <result column="saas_name" jdbcType="VARCHAR" property="saasName" />
+    <result column="enum_values" jdbcType="VARCHAR" property="enumValues" />
+    <result column="sys_default" jdbcType="VARCHAR" property="sysDefault" />
+    <result column="main_property" jdbcType="VARCHAR" property="mainProperty" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+  </resultMap>
+</mapper>
